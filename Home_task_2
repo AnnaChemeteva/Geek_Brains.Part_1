@@ -1,0 +1,8 @@
+import datetime
+
+try:
+    user_second = int(input('Сколько секунд нужно перевести в формат час:минуты:секунды? '))
+except ValueError:
+    print('Ошибка. Вы ввели НЕ число')
+else:
+    print(datetime.timedelta(seconds=user_second))

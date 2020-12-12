@@ -5,13 +5,14 @@ except ValueError:
 else:
     print(user_number)
 
-#как здесь настроить обработку исключений? не могу понять какое будет название итсключения
+# как здесь настроить обработку исключений? не могу понять какое будет название итсключения
 
 user_words = input('Введите любое слово: ')
 print(user_words)
 
-comp_mass = [1,2.3,5,'May']
+comp_mass = [1, 2.3, 5, 'May']
 print(comp_mass)
 print(comp_mass[-1])
 
-
+comp_numb = 1.2
+print(type(comp_numb))
